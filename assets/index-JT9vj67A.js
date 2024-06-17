@@ -133,7 +133,7 @@ Error generating stack: `+u.message+`
   align-items: center;
   width: 100%;
   height: 100%;
-`;function V4(){return V.jsxs(Q4,{children:[V.jsx("h2",{children:"item1"}),V.jsx("h2",{children:"item2"}),V.jsx("h2",{children:"item3"})]})}const q4=[G4,K4],Y4=Hn.div`
+`;function V4(){return V.jsx(Q4,{children:V.jsx("h2",{children:"준비중"})})}const q4=[G4,K4],Y4=Hn.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -142,7 +142,6 @@ Error generating stack: `+u.message+`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #000;
   height: 700px;
   width: 400px;
   padding: 30px;
