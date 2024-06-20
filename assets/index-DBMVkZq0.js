@@ -135,8 +135,9 @@ Error generating stack: `+u.message+`
   height: 100%;
 `;function V4(){return V.jsx(Q4,{children:V.jsx("h2",{children:"준비중"})})}const q4=[G4,K4],Y4=Hn.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   box-shadow: inset 1px 3px 10px 3px #c1c1c1;
 `,X4=Hn.div`
   display: flex;
@@ -147,7 +148,7 @@ Error generating stack: `+u.message+`
   padding: 30px;
 `,Z4=Hn.div`
   margin-bottom: 10px;
-`;function J4(){return V.jsxs(Y4,{children:[V.jsxs(X4,{children:[V.jsx(Z4,{children:"시흥체력인증센터 소식 받기"}),V.jsx(V4,{})]}),V.jsx(H4,{images:q4})]})}var O_=function(e,t){return Object.defineProperty?Object.defineProperty(e,"raw",{value:t}):e.raw=t,e},k_=vh(H0||(H0=O_([`
+`;function J4(){return V.jsxs(Y4,{children:[V.jsx(H4,{images:q4}),V.jsxs(X4,{children:[V.jsx(Z4,{children:"시흥체력인증센터 소식 받기"}),V.jsx(V4,{})]})]})}var O_=function(e,t){return Object.defineProperty?Object.defineProperty(e,"raw",{value:t}):e.raw=t,e},k_=vh(H0||(H0=O_([`
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.1 | 20191019
    License: none (public domain)
