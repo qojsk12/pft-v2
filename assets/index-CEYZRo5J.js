@@ -127,12 +127,12 @@ Error generating stack: `+u.message+`
     height: 100%;
     object-fit: contain;
   }
-`;function H4({images:e}){const t={dots:!0,infinite:!0,speed:2e3,slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:1e4};return V.jsx(U4,{children:V.jsx(W4,{...t,children:e.map((n,i)=>V.jsx(B4,{children:V.jsx("img",{src:n,alt:`Slide ${i}`})},i))})})}const G4="/pft-v2/assets/001-BVVxHvZv.png",K4="/pft-v2/assets/002-7U8gA2Qz.png",Q4="/pft-v2/assets/snsbox-CtAyBJKG.jpg",V4=Hn.div`
+`;function H4({images:e}){const t={dots:!0,infinite:!0,speed:2e3,slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:1e4};return V.jsx(U4,{children:V.jsx(W4,{...t,children:e.map((n,i)=>V.jsx(B4,{children:V.jsx("img",{src:n,alt:`Slide ${i}`})},i))})})}const G4="/pft-v2/assets/001-BVVxHvZv.png",K4="/pft-v2/assets/002-7U8gA2Qz.png",Q4="/pft-v2/assets/snsbox-CskOwbFh.jpg",V4=Hn.div`
   width: 100%;
   height: 100%;
   img {
-    width: 400px;
-    height: 700px;
+    width: 250px;
+    height: 650px;
   }
 `;function q4(){return V.jsx(V4,{children:V.jsx("img",{src:Q4,alt:"준비중"})})}const Y4=[G4,K4],X4=Hn.div`
   display: flex;
