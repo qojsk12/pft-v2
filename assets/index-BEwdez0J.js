@@ -97,7 +97,6 @@ Error generating stack: `+u.message+`
   overflow: hidden;
   border-radius: 10px;
   position: relative;
-  margin-top: 30px;
   .slick-dots {
     position: absolute;
     transform: translateX(-50%);
@@ -136,7 +135,6 @@ Error generating stack: `+u.message+`
   height: 100%;
 `;function V4(){return V.jsx(Q4,{children:V.jsx("h2",{children:"준비중"})})}const q4=[G4,K4],Y4=Hn.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   box-shadow: inset 1px 3px 10px 3px #c1c1c1;
