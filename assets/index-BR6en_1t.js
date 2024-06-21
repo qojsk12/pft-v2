@@ -97,6 +97,7 @@ Error generating stack: `+u.message+`
   overflow: hidden;
   border-radius: 10px;
   position: relative;
+  margin-top: 30px;
   .slick-dots {
     position: absolute;
     transform: translateX(-50%);
@@ -126,7 +127,7 @@ Error generating stack: `+u.message+`
     height: 100%;
     object-fit: contain;
   }
-`;function H4({images:e}){const t={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:5e3};return V.jsx(U4,{children:V.jsx(W4,{...t,children:e.map((n,i)=>V.jsx(B4,{children:V.jsx("img",{src:n,alt:`Slide ${i}`})},i))})})}const G4="/pft-v2/assets/001-BVVxHvZv.png",K4="/pft-v2/assets/002-7U8gA2Qz.png",Q4=Hn.div`
+`;function H4({images:e}){const t={dots:!0,infinite:!0,speed:2e3,slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:1e4};return V.jsx(U4,{children:V.jsx(W4,{...t,children:e.map((n,i)=>V.jsx(B4,{children:V.jsx("img",{src:n,alt:`Slide ${i}`})},i))})})}const G4="/pft-v2/assets/001-BVVxHvZv.png",K4="/pft-v2/assets/002-7U8gA2Qz.png",Q4=Hn.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
